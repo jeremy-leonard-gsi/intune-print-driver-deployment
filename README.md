@@ -15,7 +15,7 @@ There are three scripts needed.
 6. Update the install.ps1 file with the name of the driver from the .inf file.
 7. Update the detect.ps1 file with the name of the driver from the .inf file.
 8. Update the remove.ps1 file with the name of the driver from the .inf file.
-9. Use the IntuneWinAppUtil to build the package.
+9. Use the [IntuneWinAppUtil](https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool) to build the package.
 10. Import the .intunewin file into Endpoint Management.
 11. Set the install command line to: powershell.exe -ExecutionPolicy Bypass -File install.ps1
 12. Set the removal command line to: powershell.exe -ExecutionPolicy Bypass -File remove.ps1
