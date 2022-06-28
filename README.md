@@ -5,7 +5,7 @@ There are three scripts needed.
 2. detect.ps1
 3. remove.ps1
 
-Steps:
+## Steps:
 
 1. Download the needed driver.
 2. Extract the driver so you have the .inf, .cab, and all supporting files.
